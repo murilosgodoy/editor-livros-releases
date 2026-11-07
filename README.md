@@ -4,10 +4,14 @@ Este repositório guarda só as versões do **Editor de Livros** para Windows. O
 
 ## O que o app faz
 
-- Escrever com uma barra de formatação no estilo do Word.
-- Ver o livro paginado e em 3D.
-- Montar capa, contracapa e lombada.
+- Escrever com uma barra de formatação no estilo do Word: fonte, tamanho, negrito, cores, alinhamento, espaçamento, letra capitular e pincel de formatação.
+- Copiar e colar sem perder a formatação: o que você copia do próprio livro volta igual; o que vem do Word ou da internet adota o padrão do texto. Os versos colados do Word continuam um por linha.
+- Criar capítulos que seguem o padrão do capítulo anterior.
+- Pôr imagens na linha do texto ou livres na página, atrás ou na frente do texto, arrastando para posicionar.
+- Ver o livro paginado, com zoom, e em 3D: o livro inteiro, folheando página por página.
+- Montar capa, contracapa e lombada; a cor da capa acompanha a imagem.
 - Exportar o PDF do livro e a capa para a gráfica.
+- Compartilhar um livro só para leitura com outra conta: quem recebe lê o livro e vê em 3D, sem poder alterar.
 
 ## Baixar
 
@@ -32,3 +36,7 @@ O Windows Defender pode marcar por engano o arquivo `ffmpeg.dll`. Ele é um comp
 O motivo é o mesmo do aviso do SmartScreen: o instalador ainda não tem assinatura digital.
 
 Se acontecer, abra **Segurança do Windows > Proteção contra vírus e ameaças > Histórico de proteção** e restaure o arquivo. Se quiser, envie um relato em microsoft.com/wdsi/filesubmission.
+
+## Para quem mantém o app
+
+As versões chegam aqui sozinhas: um push na branch `main` do repositório privado que muda a versão do app gera o instalador e cria a release neste repositório. Não crie tags nem releases à mão aqui; atualize só este README, quando mudar o que o app faz ou como instalar. O passo a passo está em `docs/PUBLICACAO.md`, no repositório privado.
